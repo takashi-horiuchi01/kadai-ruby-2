@@ -1,5 +1,4 @@
-num_max = 100
-
+# method
 def fizzbuzz(num)
   # 3と5の倍数の処理
   if num % 15 == 0
@@ -7,19 +6,23 @@ def fizzbuzz(num)
 
   # 3の倍数の処理
   elsif num % 3 == 0
-      return "Fizz"
+    return "Fizz"
 
   # 5の倍数の処理
   elsif num % 5 == 0
-      return "Buzz"
+    return "Buzz"
 
   # その他の処理
   else
-      return num
+    return num
      
   end
       
 end
+
+
+# メソッド実行
+num_max = 100
 
 i = 1
 while i <= num_max
